@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'engravers' ;
+    src: url(fonts/Engravers.ttf);
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(90, 114, 126), rgb(190,181,173), rgb(233, 188, 85));
+    background-position: fixed;
+}
+
+.a {
+    height: 400px;
+    width: 400px;
+    background-image: url(images/122-1220120_arecaceae-tree-silhouette-clip-art-coconut-tree-silhouette.png);
+    
+    background-size: cover;
+    position: relative;
+    top: 243px; 
+    right: 50px;
+
+}
+
+.b  {
+    height: 250px;
+    width: 150px;
+    background-image: url(images/IMG_8742.png);
+    background-size: cover;
+    position: relative;
+    left: 1290px;
+    bottom: 510px;
+
+}
+
+.c {
+    background-image: url(images/Coconut-Tree-Silhoutte-Transparent.png);
+    height: 320px;
+    width: 192px;
+    background-size: cover;
+    position: relative;
+    left: 1200px;
+    bottom: 760px;
+    
+}
+
+
+h1 {
+    font-family: 'engravers';
+    color: rgba(255, 255, 255, 0.527);
+    font-size: 70px;
+    position: relative;
+    text-align: center;
+}
+
+.content {
+    height: 416px;
+    width: 480px;
+   /* background-color: black;*/
+    position: relative;
+    left: 485px;
+    bottom: 650px;
+    border-radius: 15%;
+}
+nav {
+    width: 600px;
+    height: 50px;
+    position: relative;
+    left: 430px;
+    bottom: 820px;
+}
+p { 
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+
+
+.ca {
+    height: 5px;
+    width: 5px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    left: 150px;
+    bottom: 10px;
+    
+}
+
+.cb {
+    height: 5px;
+    width: 5px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    left: 450px;
+    bottom: 44px;
+
+}
+
+nav a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.content a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+   
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.ba {
+    position: relative;
+    right: 40px;
+    top: 6px;
+}
+
+.bb {
+    position: relative;
+    left: 260px;
+    bottom: 28px;
+}
+
+.bc {
+    position: relative;
+    left: 557px;
+    bottom: 61px;
+}
+
+.aa {
+    position: relative;
+    left: 127px;
+    top: 90px;
+}
+
+.ab {
+    position: relative;
+    right: 80px;
+    top: 200px;
+}
+.ac {
+    position: relative;
+    left: 150px;
+    top: 270px;
+}
+
+p {
+    color: black;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 15px;
+    letter-spacing: 40px;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    position: relative;
+    bottom: 823px;
+    right: 5px;
+}
+
+.bc {
+    color: black;
+    position:relative;
+    height: 1000px;
+    transition: color 0.2s;
+}
+
+.bc:hover {
+    color:rgba(255, 255, 255, 0.527);
+}

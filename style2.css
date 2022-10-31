@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'engravers' ;
+    src: url(fonts/Engravers.ttf);
+}
+
+body {
+    background-color: black;
+}
+
+
+
+h1 {
+    color: rgb(157, 165, 238);
+    text-align: center;
+    position: relative;
+    top: 200px;
+    font-family: 'engravers';
+}
+
+
+
+p {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 250px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+.a {
+    position: relative;
+    left: 370px;
+    top: 400px;
+    
+}
